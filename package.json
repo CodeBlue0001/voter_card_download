@@ -1,17 +1,16 @@
 {
   "name": "voter_card",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
     "dev": "nodemon server.js",
     "build": "webpack --config webpack.config.js"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
@@ -27,7 +26,6 @@
     "php": "^1.1.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   }
