@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon server.js",
     "dev": "nodemon Election_Result_server.js",
-    "build": "webpack"
+    "build": "webpack --config webpack.config.js"
 
   },
   "keywords": [],
