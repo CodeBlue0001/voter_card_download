@@ -2,11 +2,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './Election_Result_server.js', // your server entry point
-  target: 'node', // important for backend apps
-  mode: 'production', // or 'development'
+  entry: './src/index.js', // or your actual file
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'server.bundle.js'
-  }
+    filename: 'bundle.js',
+  },
+  mode: 'development', // or 'production'
 };
